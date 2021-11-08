@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.HighDefinition;
 
 namespace UIElementsExamples
 {
@@ -9,6 +10,10 @@ namespace UIElementsExamples
         // SerializedPropertyType.Generic
         // NO C# DATA TYPE
 
+        public HDAdditionalCameraData.SMAAQualityLevel smaaQualityLevel = HDAdditionalCameraData.SMAAQualityLevel.High;
+        
+        public HDAdditionalCameraData.AntialiasingMode antialiasingMode = HDAdditionalCameraData.AntialiasingMode.None;
+        
         // SerializedPropertyType.Integer
         public int intField = 42;
 
